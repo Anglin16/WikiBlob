@@ -1,0 +1,15 @@
+*.exe
+*.dll
+*.txt
+*.phar
+*.json
+*.gif
+*.ini
+*.lib
+vendor/
+lib/
+extras/
+ext/
+dev/
+php.ini-production
+php.ini-development
