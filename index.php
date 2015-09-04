@@ -2,21 +2,19 @@
     <head>
         <link rel="stylesheet" type="text/css" href="main.css"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="script/index.js"></script>
     </head>
     <body>
         <div>
             <div id="wrapper">
                 <div id="header">
                     <ul id="header-items">
-                        <li><a href="A"><img src="resources/EnochMadeThis2.png"/></a></li>
+                        <li><a href="A"><img src="EnochMadeThis2.png"/></a></li>
                         <li><em>A Microsoft Azure based Wikipedia implementation</em></li>
                     </ul>
                     <ul id="edit">
                         <a href="__add"><i class="material-icons">note_add</i></a>
                         <a href="__edit"><i class="material-icons">mode_edit</i></a>
-                        <a href="__delete"><i id="delete" class="material-icons">delete</i></a>
+                        <a href="__delete"><i class="material-icons">delete</i></a>
                      </ul>
                 </div>
                 <div id="content">
@@ -25,7 +23,7 @@
                         require_once 'vendor\autoload.php';
                         use WindowsAzure\Common\ServicesBuilder;          
 
-                        $connectionString='DefaultEndpointsProtocol=https;AccountName=dbt330;AccountKey=ixV/NG4/Jy8P9Pk3pByAE3hD8cTfgD7Mb0Anredi0rktSd/NZddt0e63VPfjQW8vCrIc4vapgHeJph3ALkaudQ==';
+                        $connectionString='DefaultEndpointsProtocol=https;AccountName=dbt330;AccountKey=ixV/NG4/Jy8P9Pk3pByAE3hD8cTfgD7Mb0Anredi0rktSd/NZddt0e63VPfjQW8vCrIc4vapgHeJpSh3ALkaudQ==';
                         $url = $_SERVER['PATH_INFO'];
                         $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($connectionString);
                         $getRekt = (parse_url($url, PHP_URL_PATH));

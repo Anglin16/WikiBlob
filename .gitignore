@@ -13,3 +13,5 @@ ext/
 dev/
 php.ini-production
 php.ini-development
+*.bat
+*.lock
