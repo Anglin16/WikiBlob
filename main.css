@@ -86,6 +86,23 @@ h1 {
     font-size: 300px;
 }
 
+i:link {
+    color: #000;
+}
+
+i:visited {
+    color: #000;
+}
+
+i:hover {
+    color: #00f;
+    cursor: pointer;
+}
+
+i:active {
+    color: #f00;   
+}
+
 
 
 
