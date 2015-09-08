@@ -27,6 +27,7 @@
 
                         $connectionString='DefaultEndpointsProtocol=https;AccountName=dbt330;AccountKey=ixV/NG4/Jy8P9Pk3pByAE3hD8cTfgD7Mb0Anredi0rktSd/NZddt0e63VPfjQW8vCrIc4vapgHeJph3ALkaudQ==';
                         $url = $_SERVER['PATH_INFO'];
+                        $noSlash = substr($url, 1);
                         $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($connectionString);
                         $getRekt = (parse_url($url, PHP_URL_PATH));
                         try {
