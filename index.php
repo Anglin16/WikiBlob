@@ -14,7 +14,7 @@
                         <li><em>A Microsoft Azure based Wikipedia implementation</em></li>
                     </ul>
                     <ul id="edit">
-                        <li><i class="material-icons">note_add</i></li>
+                        <li><i id="add" class="material-icons">note_add</i></li>
                         <li><i class="material-icons">mode_edit</i></li>
                         <li><i id="delete" class="material-icons">delete</i></li>
                      </ul>

@@ -4,6 +4,8 @@ require_once 'vendor\autoload.php';
 use WindowsAzure\Common\ServicesBuilder;
 use WindowsAzure\Common\ServiceException;
 
+$connectionString='DefaultEndpointsProtocol=https;AccountName=dbt330;AccountKey=ixV/NG4/Jy8P9Pk3pByAE3hD8cTfgD7Mb0Anredi0rktSd/NZddt0e63VPfjQW8vCrIc4vapgHeJph3ALkaudQ==';
+
 // Create blob REST proxy.
 $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($connectionString);
 
@@ -19,8 +21,10 @@ catch(ServiceException $e){
     // Handle exception based on error codes and messages.
     // Error codes and messages are here:
     // http://msdn.microsoft.com/library/azure/dd179439.aspx
-        echo "<p id='error'><b>Error 404:</b> The specified page was not found to be deleted</p>";
-            echo $e->getMessage();
+    echo $toUpsertTitle;
+    echo $toUpsertContent;
+    echo $e->getMessage();
+    
 }
 
 

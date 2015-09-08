@@ -17,6 +17,11 @@ $(document).ready(function() {
         return false;
     });
     
+    $("#add").click(function addArticle() {
+        console.log("add");
+        window.location.replace("edit_page.php");
+    });
+    
     
     
 });

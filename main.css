@@ -103,6 +103,20 @@ i:active {
     color: #f00;   
 }
 
+#title {
+    width: 100%;   
+}
+
+#content {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#submit_wrapper {
+    text-align: center;
+}
+
 
 
 
