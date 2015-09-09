@@ -19,7 +19,16 @@ $(document).ready(function() {
     
     $("#add").click(function addArticle() {
         console.log("add");
-        window.location.replace("edit_page.php");
+        window.location.replace("add_page.php");
+    });
+    
+    $("#update").click(function editArticle(title) {
+        console.log("update");
+        var pathname = window.location.pathname.split("/");
+        var toUpdate = pathname[pathname.length -1];
+        toUpdate = toUpdate.replace("%20", " ");
+        console.log(toUpdate);
+        window.location.replace("edit_page.php/" + toUpdate);
     });
     
     

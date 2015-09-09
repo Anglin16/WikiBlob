@@ -9,10 +9,11 @@ $(document).ready(function() {
             var content = $("textarea#content").val();
             console.log(content);
             console.log(toUpsert);
-            var val  = $.get("/upsert.php", {Title : toUpsert, Content: content});
+            var val  = $.get("upsert.php", {Title : toUpsert, Content: content});
             console.log(val);
-            window.history.back();
+            window.location.replace(toUpsert);
         }
+        
         return false;
     });
     

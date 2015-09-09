@@ -1,21 +1,21 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link rel="stylesheet" type="/text/css" href="main.css"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="script/index.js"></script>
+        <script src="/script/index.js"></script>
     </head>
     <body>
         <div>
             <div id="wrapper">
                 <div id="header">
                     <ul id="header-items">
-                        <li><a href="A" id="logo"><img src="EnochMadeThis2.png"/></a></li>
+                        <li><a href="A" id="logo"><img src="/EnochMadeThis2.png"/></a></li>
                         <li><em>A Microsoft Azure based Wikipedia implementation</em></li>
                     </ul>
                     <ul id="edit">
                         <li><i id="add" class="material-icons">note_add</i></li>
-                        <li><i class="material-icons">mode_edit</i></li>
+                        <li><i id="update" class="material-icons">mode_edit</i></li>
                         <li><i id="delete" class="material-icons">delete</i></li>
                      </ul>
                 </div>

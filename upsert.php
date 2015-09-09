@@ -21,8 +21,8 @@ catch(ServiceException $e){
     // Handle exception based on error codes and messages.
     // Error codes and messages are here:
     // http://msdn.microsoft.com/library/azure/dd179439.aspx
-    echo $toUpsertTitle;
-    echo $toUpsertContent;
+    //echo $toUpsertTitle;
+    //echo $toUpsertContent;
     echo $e->getMessage();
     
 }
